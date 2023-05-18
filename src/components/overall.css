@@ -1,0 +1,88 @@
+.navtop {
+  display: flex;
+  justify-content: center;
+}
+.Header {
+  position: relative;
+}
+.Header img {
+  width: 100%;
+  filter: brightness(45%);
+}
+.contenthead {
+  position: absolute;
+  bottom: 12%;
+  left: 18%;
+  color: white;
+}
+.card1 {
+  margin: 4rem 10rem;
+}
+.card3 {
+  margin: 0.5rem;
+}
+.botnav {
+  display: flex;
+  justify-content: center;
+}
+.nav-tabs {
+  width: 80%;
+}
+.card {
+  width: 50%;
+}
+
+.h4 {
+  display: flex;
+  align-items: center;
+}
+
+.h4 h4 {
+  display: flex;
+  font-size: 1.3rem;
+}
+.cardbot {
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+  align-items: center;
+  margin-top: 1rem;
+}
+.leftcard {
+  display: flex;
+  align-items: center;
+}
+.leftcard h4 {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+.leftcard img {
+  width: 10%;
+}
+.rightcard {
+  display: flex;
+  align-items: center;
+}
+.views {
+  display: flex;
+  font-size: 0.8rem;
+  margin: 0 1rem;
+}
+#img2 {
+  width: 80%;
+}
+.cardbutton {
+  width: 100%;
+  border-radius: 1rem;
+  border: 1px solid rgb(125, 123, 123);
+  margin-top: 1rem;
+  padding: 0.1rem;
+  color: rgb(39, 176, 39);
+}
+.cardbutton2 {
+  width: 100%;
+  border-radius: 1rem;
+  border: 1px solid rgb(125, 123, 123);
+  margin-top: 1rem;
+  padding: 0.1rem;
+  color: rgb(241, 127, 39);
+}
