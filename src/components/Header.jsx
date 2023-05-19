@@ -52,7 +52,7 @@ function Header() {
           <div className="headbut d-grid gap-2 d-md-flex justify-content-md-end">
             <div className="dropdown">
               <button
-                className="btn btn-secondary dropdown-toggle bg-light "
+                className="dropheadbut btn btn-secondary dropdown-toggle bg-light "
                 type="button"
                 id="dropdownMenuButton1"
                 data-bs-toggle="dropdown"
@@ -62,7 +62,7 @@ function Header() {
               </button>
               <ul
                 className="dropdown-menu"
-                aria-labelledby="dropdownMenuButton1"
+                aria-labelledby="dropdownMenuButton1 dropheadbut"
               >
                 <li>
                   <a className="dropdown-item" href="/">

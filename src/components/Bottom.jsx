@@ -177,7 +177,7 @@ function Bottom() {
                   </ul>
                 </div>
               </div>
-              <img src={img2} alt="ih" id="img2" />
+              <img src={img2} alt="ih" className="img20" />
               <button className="cardbutton2">Apply on Timesjobs</button>
               <div className="cardbot">
                 <div className="leftcard">

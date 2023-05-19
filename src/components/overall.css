@@ -23,6 +23,13 @@
   left: 18%;
   color: white;
 }
+.dropheadbut {
+  color: black;
+}
+.dropheadbut:hover {
+  color: black;
+}
+
 .card1 {
   margin-top: 3rem;
 }
@@ -77,7 +84,7 @@
   margin: 0 1rem;
   align-items: center;
 }
-#img2 {
+.img20 {
   width: 80%;
 }
 .cardbutton {
@@ -125,9 +132,6 @@
   outline: none;
 }
 
-#dropdownMenuButton1 {
-  color: black;
-}
 .phonenav {
   display: none;
 }
@@ -351,7 +355,7 @@
   .signin {
     padding: 0;
   }
-  .sticker {
+  .sticker img {
     display: none;
   }
   .card1 {
