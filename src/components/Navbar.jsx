@@ -1,17 +1,16 @@
 import React from "react";
 import logo from "../Media/whole.png";
 import "./overall.css";
-
 function Navbar() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-white">
-        <div className=" navtop container-fluid">
+        <div className="navtop container-fluid">
           <a className="navbar-brand" href="/">
             <img src={logo} alt="log" />
           </a>
           <button
-            className="navbar-toggler"
+            className=" navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -21,10 +20,13 @@ function Navbar() {
           >
             <span className="navbar-toggler-icon "></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <div
+            className="corotop collapse navbar-collapse"
+            id="navbarSupportedContent"
+          >
             <form className="d-flex">
               <input
-                className="form-control me-2"
+                className="searchnav form-control me-2"
                 type="search"
                 placeholder="Search for your favorite groups in ATG"
                 aria-label="Search"
@@ -33,14 +35,14 @@ function Navbar() {
             <ul className="dronav navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item dropdown">
                 <a
-                  className="nav-link dropdown-toggle"
+                  className="bluetop nav-link dropdown-toggle"
                   href="/"
                   id="navbarDropdown"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Create account.It’s free!
+                  Create account.<div className="bluetext">It’s free!</div>
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>

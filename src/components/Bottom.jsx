@@ -2,17 +2,20 @@ import React from "react";
 import img1 from "../Media/Rectangle 5-2.png";
 import "./overall.css";
 import sarthak from "../Media/Rectangle 3-4.png";
-import view from "../Media/visibility_24px.png";
 import share from "../Media/Group 2.png";
 import Edu from "../Media/Rectangle 5.png";
 import sarah from "../Media/Rectangle 3-1.png";
 import meetup from "../Media/Rectangle 5-1.png";
 import ronal from "../Media/Rectangle 3-2.png";
 import img2 from "../Media/Group 53.png";
+import location from "../Media/Outline.png";
+import pencil from "../Media/baseline-edit-24px.png";
+import joseph from "../Media/Rectangle 3-3.png";
+import { AiOutlineEye } from "react-icons/ai";
 
 function Bottom() {
   return (
-    <div>
+    <div className="bottomcard">
       <div className="card1">
         <div className="card3">
           <div class="card">
@@ -64,7 +67,8 @@ function Bottom() {
 
                 <div className="rightcard">
                   <div className="views">
-                    <img src={view} alt="dkdn" />
+                    {/* <AiOutlineEye /> */}
+                    <AiOutlineEye />
                     1.4k views
                   </div>
                   <div className="share">
@@ -127,7 +131,7 @@ function Bottom() {
 
                 <div className="rightcard">
                   <div className="views">
-                    <img src={view} alt="dkdn" />
+                    <AiOutlineEye />
                     1.4k views
                   </div>
                   <div className="share">
@@ -184,7 +188,7 @@ function Bottom() {
 
                 <div className="rightcard">
                   <div className="views">
-                    <img src={view} alt="dkdn" />
+                    <AiOutlineEye />
                     1.4k views
                   </div>
                   <div className="share">
@@ -209,13 +213,13 @@ function Bottom() {
               <div className="cardbot">
                 <div className="leftcard">
                   {" "}
-                  <img src={ronal} alt="sart" />
-                  <h4>Ronal Jones</h4>
+                  <img src={joseph} alt="sart" />
+                  <h4>Joseph Gray</h4>
                 </div>
 
                 <div className="rightcard">
                   <div className="views">
-                    <img src={view} alt="dkdn" />
+                    <AiOutlineEye />
                     1.4k views
                   </div>
                   <div className="share">
@@ -225,6 +229,18 @@ function Bottom() {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="cardpar">
+        <div className="upcor">
+          <div className="lcat">
+            <div className="serchbar">
+              <img src={location} alt="dn" />
+              <input type="text" />
+            </div>
+            <img src={pencil} alt="wuwi" />
+          </div>
+          <div className="locline"></div>
         </div>
       </div>
     </div>

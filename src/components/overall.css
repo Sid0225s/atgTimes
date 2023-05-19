@@ -1,6 +1,14 @@
-.navtop {
+.dronav {
+  margin-left: 10rem;
+}
+.bottomcard {
   display: flex;
-  justify-content: center;
+}
+.searchnav {
+  width: 24rem;
+  text-align: center;
+  border-radius: 1rem;
+  margin-left: 20rem;
 }
 .Header {
   position: relative;
@@ -16,20 +24,20 @@
   color: white;
 }
 .card1 {
-  margin: 4rem 10rem;
+  margin-top: 3rem;
 }
+
 .card3 {
-  margin: 0.5rem;
+  width: 70%;
+  margin: 1rem 0rem 0.5rem 10rem;
 }
 .botnav {
   display: flex;
   justify-content: center;
 }
+
 .nav-tabs {
   width: 80%;
-}
-.card {
-  width: 50%;
 }
 
 .h4 {
@@ -56,7 +64,7 @@
   margin-left: 1rem;
 }
 .leftcard img {
-  width: 10%;
+  width: 40px;
 }
 .rightcard {
   display: flex;
@@ -64,8 +72,10 @@
 }
 .views {
   display: flex;
+  width: 6rem;
   font-size: 0.8rem;
   margin: 0 1rem;
+  align-items: center;
 }
 #img2 {
   width: 80%;
@@ -85,4 +95,251 @@
   margin-top: 1rem;
   padding: 0.1rem;
   color: rgb(241, 127, 39);
+}
+.headbut {
+  position: absolute;
+  right: 12%;
+  font-size: 1rem;
+  margin-top: 0.1rem;
+}
+.upcor {
+  margin: 5rem 13rem 0 0;
+}
+.lcat {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 4fr 1fr;
+}
+.locline {
+  height: 1px;
+  background-color: rgb(143, 139, 139);
+  width: 13.8rem;
+  margin-top: 0.3rem;
+}
+.serchbar {
+  display: flex;
+  align-items: center;
+}
+.serchbar input {
+  border: none;
+  outline: none;
+}
+
+#dropdownMenuButton1 {
+  color: black;
+}
+.phonenav {
+  display: none;
+}
+.phonenav div {
+  margin: 0.5rem 1rem;
+}
+.posthead {
+  font-weight: 700;
+}
+.btnjoin {
+  display: flex;
+  align-items: center;
+}
+.btnjoin svg {
+  margin-right: 0.2rem;
+}
+.bluetop {
+  display: flex;
+  align-items: center;
+}
+.bluetop .bluetext {
+  color: #0d6efd;
+}
+.joinbutton {
+  display: none;
+}
+.loginpage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login {
+  border-radius: 4px;
+  background-color: white;
+  border: 1px solid rgb(229, 219, 219);
+  width: 60%;
+  margin: 2rem;
+}
+.botbox {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.topbox {
+  border-bottom: 2px solid rgb(118, 114, 114);
+  text-align: center;
+  background-color: #effff4;
+  padding: 1rem;
+}
+
+.signin {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 4rem;
+}
+.signin h1 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.signin form {
+  display: flex;
+  flex-direction: column;
+}
+.signin form input {
+  padding: 0.6rem 0.6rem;
+  background: #f7f8fa;
+  border: 1px solid #d9d9db;
+}
+
+.signbut {
+  border-radius: 2rem;
+  background-color: #2f6ce5;
+  color: white;
+  font-weight: 500;
+  border: none;
+  padding: 0.5rem 0;
+  margin: 2rem 0;
+}
+.forget {
+  margin: 2rem 0;
+  text-align: center;
+}
+.sticker {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+}
+.sticker a {
+  text-decoration: none;
+}
+.sticker img {
+  margin-top: 2rem;
+}
+.topbox h5 {
+  font-size: 1.1rem;
+  color: #008a45;
+}
+.facebook {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.3rem;
+  border: #d9d9db solid 1px;
+}
+.facebook img {
+  margin-right: 0.5rem;
+}
+.google svg {
+  margin-right: 0.5rem;
+}
+.google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.3rem;
+  margin-top: 1rem;
+  border: #d9d9db solid 1px;
+}
+@media (max-width: 1300px) {
+  .searchnav {
+    margin-left: 15rem;
+  }
+}
+@media (max-width: 1200px) {
+  .searchnav {
+    margin-left: 10rem;
+  }
+  .dronav {
+    margin-left: 7rem;
+  }
+}
+@media (max-width: 1100px) {
+  .searchnav {
+    margin-left: 9rem;
+  }
+  .dronav {
+    margin-left: 5rem;
+  }
+  .upcor {
+    margin: 5rem 9rem 0 0;
+  }
+}
+@media (max-width: 1010px) {
+  .searchnav {
+    margin-left: 8rem;
+  }
+  .dronav {
+    margin-left: 4.5rem;
+  }
+  .upcor {
+    margin: 5rem 7rem 0 0;
+  }
+  .card3 {
+    margin: 1rem 0rem 0.5rem 6rem;
+  }
+}
+@media (max-width: 992px) {
+  .searchnav {
+    margin-left: 0rem;
+  }
+  .dronav {
+    margin-left: 0rem;
+  }
+}
+@media (max-width: 855px) {
+  .headbut {
+    flex-direction: column;
+  }
+}
+@media (max-width: 788px) {
+  .bottomcard {
+    flex-direction: column-reverse;
+  }
+  .cardpar {
+    display: none;
+  }
+  .nav-tabs {
+    width: 100%;
+  }
+  .headbut {
+    flex-direction: row;
+  }
+}
+@media (max-width: 620px) {
+  .phonenav {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    align-items: center;
+  }
+  .botnav {
+    display: none;
+  }
+  .card1 {
+    margin: 0;
+  }
+  .card3 {
+    margin: 0;
+    width: 100%;
+  }
+  .joinbutton {
+    display: block;
+    position: absolute;
+    right: 1rem;
+    top: 12px;
+  }
+  .joinbutton a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 0.5rem;
+    border-radius: 5px;
+  }
 }
