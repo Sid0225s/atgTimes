@@ -2,7 +2,6 @@ import React from "react";
 import headimg from "../Media/Rectangle 2-1.png";
 import "./overall.css";
 import { MdGroupAdd } from "react-icons/md";
-import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -87,7 +86,7 @@ function Header() {
               href="#login"
             >
               <MdGroupAdd />
-              <Link>Join Group</Link>
+              Join Group
             </button>
           </div>
         </ul>

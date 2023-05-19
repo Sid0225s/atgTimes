@@ -343,3 +343,10 @@
     border-radius: 5px;
   }
 }
+@media (max-width: 500px) {
+  .contenthead {
+    bottom: 4%;
+    left: 3%;
+    zoom: 0.75;
+  }
+}
