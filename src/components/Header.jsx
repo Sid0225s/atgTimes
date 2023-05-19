@@ -20,7 +20,11 @@ function Header() {
       <div className="botnav">
         <ul className="botnav1 nav nav-tabs">
           <li className="nav-item">
-            <a className="nav-link disabled" aria-current="page" href="/">
+            <a
+              className="post32 nav-link disabled"
+              aria-current="page"
+              href="/"
+            >
               All Posts(32)
             </a>
           </li>
