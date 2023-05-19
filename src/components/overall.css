@@ -164,7 +164,7 @@
   background-color: white;
   border: 1px solid rgb(229, 219, 219);
   width: 60%;
-  margin: 2rem;
+  margin: 6rem 2rem;
 }
 .botbox {
   display: grid;
@@ -246,7 +246,22 @@
   justify-content: center;
   padding: 0.3rem;
   margin-top: 1rem;
+  margin-bottom: 1rem;
   border: #d9d9db solid 1px;
+}
+.joingroup {
+  color: white;
+  text-decoration: none;
+}
+.joingroup:hover {
+  color: #f7f8fa;
+}
+.homeback {
+  text-align: center;
+  text-decoration: none;
+  padding: 0.5rem;
+  border: #0d6efd solid 2px;
+  border-radius: 2rem;
 }
 @media (max-width: 1300px) {
   .searchnav {
@@ -270,6 +285,9 @@
   }
   .upcor {
     margin: 5rem 9rem 0 0;
+  }
+  .login {
+    width: 100%;
   }
 }
 @media (max-width: 1010px) {
@@ -298,6 +316,9 @@
   .headbut {
     flex-direction: column;
   }
+  .signin {
+    padding: 2rem 0 1rem 2rem;
+  }
 }
 @media (max-width: 788px) {
   .bottomcard {
@@ -322,6 +343,17 @@
   .botnav {
     display: none;
   }
+  .botbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .signin {
+    padding: 0;
+  }
+  .sticker {
+    display: none;
+  }
   .card1 {
     margin: 0;
   }
@@ -341,6 +373,12 @@
     border: 2px solid white;
     padding: 0.5rem;
     border-radius: 5px;
+  }
+  .homeback {
+    margin-bottom: 1rem;
+  }
+  .signin h1 {
+    text-align: center;
   }
 }
 @media (max-width: 500px) {

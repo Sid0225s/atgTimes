@@ -5,9 +5,9 @@ import { FcGoogle } from "react-icons/fc";
 import facebook from "../Media/f_logo_RGB-Blue_1024.png";
 import { Link } from "react-router-dom";
 
-function Login() {
+function Create() {
   return (
-    <div className="loginpage">
+    <div className="loginpage" id="login">
       <div className="login">
         <div className="topbox">
           <h5>
@@ -17,20 +17,21 @@ function Login() {
         </div>
         <div className="botbox">
           <div className="signin">
-            <h1>Sign in</h1>
+            <h1>Create Account</h1>
             <form action="login">
+              <input type="text" placeholder="Full name" />
               <input type="email" placeholder="Email" />
               <input type="password" placeholder="Password" />
+              <input type="password" placeholder="Confirm Password" />
             </form>
-            <button className="signbut">Sign in</button>
+            <button className="signbut">Create Account</button>
             <button className="facebook">
-              <img src={facebook} alt="nuwhu" /> Sign in with Facebook
+              <img src={facebook} alt="nuwhu" /> Sign up with Facebook
             </button>
             <button className="google">
               <FcGoogle />
-              Sign in with Google
+              Sign up with Google
             </button>
-            <div className="forget">Forgot Password?</div>{" "}
             <Link className="homeback" to="/">
               Home
             </Link>
@@ -38,8 +39,7 @@ function Login() {
           <div className="sticker">
             <div>
               {" "}
-              Don’t have an account yet?{" "}
-              <Link to="/create">Create new for free!</Link>
+              Already have an account? <Link to="/login">Sign In</Link>
             </div>
             <img src={sticker} alt="dbdu" />
           </div>
@@ -49,4 +49,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Create;

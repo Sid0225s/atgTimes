@@ -2,6 +2,7 @@ import React from "react";
 import headimg from "../Media/Rectangle 2-1.png";
 import "./overall.css";
 import { MdGroupAdd } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -13,7 +14,7 @@ function Header() {
           <p>142,765 Computer Engineers follow this</p>
         </div>
         <dib className="joinbutton">
-          <a href="#login">Join Group</a>
+          <Link to="/login">Join Group</Link>
         </dib>
       </div>
       <div className="botnav">
@@ -86,7 +87,9 @@ function Header() {
               href="#login"
             >
               <MdGroupAdd />
-              Join Group
+              <Link className="joingroup" to="/login">
+                Join Group
+              </Link>
             </button>
           </div>
         </ul>

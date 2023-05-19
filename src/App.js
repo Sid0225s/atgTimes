@@ -1,14 +1,19 @@
-import Bottom from "./components/Bottom";
-import Header from "./components/Header";
-import Navbar from "./components/Navbar";
+import Create from "./components/Create";
+import Login from "./components/Login";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Page from "./components/Page";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Header />
-      <Bottom />
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<Page />}></Route>
+          <Route path="/login" element={<Login />}></Route>
+          <Route path="/create" element={<Create />}></Route>
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 
